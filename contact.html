@@ -5,65 +5,72 @@
   <meta charset="UTF-8">
   <title>Contact | Kristi Kacaj</title>
   <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
-<body>
-
-    <header style="background: #ffffff; border-bottom: solid 2px #cccccc;">
-        <div class="container-fluid; ">
-          <h1 style="float: left; background-color: #4aaaa5; width: 225px; height: 60px; margin-left: 175px; padding: 5px; color: #ffffff; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;">Kristi Kacaj</h1>
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header"></div>
-                  <ul class="nav navbar-nav">
-                    <li class="active"></li>
-                    <div class="row" style="margin-right: 130px; margin-top: 20px;">
-                      <li><a href="index.html">About</a></li>
-                      <li><a href="portfolio.html">Portfolio</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                    </div>
-                </ul>
+<body style="background-image: url('images/interlaced.png')">
+    <div  class="container-fluid; ">
+        <header class="main-header">
+            <div>
+                <h1>Kristi Kacaj</h1>
+                <nav class="navbar navbar-default">
+                  <div class="navbar-header"></div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"></li>
+                        <div class="row">
+                            <li><a class="a" href="index.html">About</a></li>
+                             <li><a class="a" href="portfolio.html">Portfolio</a></li>
+                            <li><a class="a" href="contact.html">Contact</a></li>
+                        </div>
+                    </ul>
+                  </div>
+                </nav>
             </div>
-          </nav>
+         </header>
+
+        <div class="main-section">
+
+            <section>
+
+                <h2>Contact</h2>
+
+                <hr>
+
+                <form>
+                  <ul>
+                    <li>
+                        <label for="name">Name</label>
+                    </li>
+                    <li>
+                        <input class="input" type="text"  name="name" placeholder="Kristi Kacaj" required="required">
+                    </li>
+                    <li>
+                        <label class="li" for="email">Email</label>
+                    </li>
+                    <li>
+                        <input class="input" type="email" name="email" placeholder="kristik.web@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label class="li" for="message">Message</label>
+                    </li>
+                    <li>
+                        <textarea class="input" id="message" name="message" required="required"></textarea>
+                    </li>
+                  </ul>
+                    <input type="submit" class="submit-button">
+                </form>
+
+            </section>
+
         </div>
-      </header>
 
-  <div>
-
-    <section class="container-fluid" style="position: relative; left; max-width: 980px; padding: 20px; padding-top: 20px; margin-top: 50px; background: #ffffff; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif;">
-
-      <h2 style="color: #4aaaa5; position: relative; left; margin-top: 20px;">Contact</h2>
-
-      <hr>
-
-      <form>
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Kristi Kacaj" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="kristik.web@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit" style="background-color: #4aaaa5; font-size: 18px; color: #ffffff; padding: 5px 30px; cursor: pointer;">
-      </form>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div style="text-align: center; font-size: 12px; position: fixed; height: 50px; width: 100%; bottom: 0%; padding-top: 10px; background: #666666; color: #ffffff; border-top: 8px solid #4aaaa5;">
-      Copyright &copy; 
+        <footer>
+            <div class="sticky-footer">
+                 Copyright &copy; Kristi Kacaj
+            </div>
+        </footer>
     </div>
-  </footer>
 </body>
 
 </html>
