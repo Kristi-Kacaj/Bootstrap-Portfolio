@@ -103,3 +103,35 @@ form {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+
+.pics {
+    position: relative;
+    width: 300px;
+    height: 230px;
+    overflow: auto;
+}
+
+.pics2 {
+    position: relative;
+    width: 300px;
+    height: 230px;
+    overflow: auto;
+}
+
+hr {
+    width: 940px;
+}
+
+#rpg {
+    margin-top: 90px;
+}
+
+h3 {
+    position: relative;
+    top: -75px;
+    width: 300px;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+}

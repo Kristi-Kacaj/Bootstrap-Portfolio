@@ -4,62 +4,81 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio | Kristi Kacaj</title>
-  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-image: url('images/interlaced.png')">
+    <div class="container-fluid;">
+        <header class="main-header">
+            <div>
+                <h1>Kristi Kacaj</h1>
+                <nav class="navbar navbar-default">
+                  <div class="navbar-header"></div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"></li>
+                        <div class="row">
+                            <li><a class="a" href="index.html">About</a></li>
+                             <li><a class="a" href="portfolio.html">Portfolio</a></li>
+                            <li><a class="a" href="contact.html">Contact</a></li>
+                        </div>
+                    </ul>
+                  </div>
+                </nav>
+            </div>
+        </header>
+    
+        
+        <div class="main-section">
+        
+            <section class="row">
+               
+                <div class="col-lg-6">
+                    
+                    <h2>Portfolio</h2>
 
-  <header >
-    <div >
-      <a href="index.html">Kristi Kacaj</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+                    <hr>
+            
+                    <img class="pics" src="https://images-na.ssl-images-amazon.com/images/I/81xt2%2BPD0IL._SY355_.png" alt="Word Guess">
+
+                    <h3>Word Guess</h3>
+            
+    
+                    <img class="pics" src="data:image/jpeg;base64,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" alt="Trivia Game">
+
+                    <h3>Trivia Game</h3>
+
+
+                    <img class="pics" src="https://www.playworks.org/colorado/wp-content/uploads/sites/5/2019/09/finalrps-classypage.jpg" alt="Rock Paper Scissors">
+
+                    <h3>Rock Paper Scissors</h3>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <img class="pics2" id="rpg" src= "https://www.dailyesports.gg/wp-content/uploads/2019/10/League-of-Legends-Senna-Feature.png" alt="RPG Game">
+
+                    <h3>RPG Game</h3>
+                   
+
+                    <img class="pics2" src="https://images.propertycasualty360.com/contrib/content/uploads/sites/414/2018/10/3-steps-tech-modernization-Feature-1.jpeg" alt="Rutgers Info Widget">
+
+                    <h3>Rutgers Info Widget</h3>
+                   
+                </div>
+
+            </section>
+        </div>
+
     </div>
-  </header>
 
-  <div>
-    <section>
-      <h1>Portfolio</h1>
-
-      <div>
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-        <h3>Word Guess</h3>
-      </div>
-      <div>
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div>
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div>
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div>
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div>
-      Copyright &copy;
-    </div>
-  </footer>
+    <footer>
+        <div class="sticky-footer">
+            Copyright &copy; Kristi Kacaj
+        </div>
+    </footer>
 </body>
 
 </html>
